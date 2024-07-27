@@ -1,4 +1,7 @@
 | Name of the project | Goals | Results |
 | :--- | :--- | :--- |
-| Ticket Aggregator | Create a Ticket Aggregator returning category of ticket based on user preferences | Ticket Aggregator based on preferences like: the cost of the ticket, the number of transfers, the possibility of ticket refund, the cost of the ticket takes into account baggage or not, the cost of luggage, the duration of the flight, the ability to take a pet with you, the ability to choose a seat, the ability to order additional meals, the ability to order a transfer from the airport. |
+| CountVectorizer | Write a class for vectorizing strings | Implemented class CountVectorizer:
+- f​it  -  build a dictionary "token to index" from the input corpus and save it as an attribute of the class;
+- transform  -  transform a new corpus based on a saved dictionary, should return a list of lists. If some token from the new corpus is not represented in the dictionary, then you need to ignore it;
+- f​it_transform  -  fit and transform on the same corpus, should return a list of lists. |
 | InvertedIndex | Develop a comprehensive solution centered around the concept of an "Inverted Index". |  Implemented the function load_document. Implemented the function build_inverted_index. Implemented methods init and query for the class InvertedIndex. Added a command line interface. | 
