@@ -1,0 +1,4 @@
+| Name of the project | Goals | Results |
+| :--- | :--- | :--- |
+| Ticket Aggregator | Create a Ticket Aggregator returning category of ticket based on user preferences | Ticket Aggregator based on preferences like: the cost of the ticket, the number of transfers, the possibility of ticket refund, the cost of the ticket takes into account baggage or not, the cost of luggage, the duration of the flight, the ability to take a pet with you, the ability to choose a seat, the ability to order additional meals, the ability to order a transfer from the airport. |
+| InvertedIndex | Develop a comprehensive solution centered around the concept of an "Inverted Index". |  Implemented the function load_document. Implemented the function build_inverted_index. Implemented methods init and query for the class InvertedIndex. Added a command line interface. | 
